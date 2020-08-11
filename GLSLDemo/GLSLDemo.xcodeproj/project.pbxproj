@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D75050E324E24AA8001BDD60 /* KKView.m in Sources */ = {isa = PBXBuildFile; fileRef = D75050E224E24AA8001BDD60 /* KKView.m */; };
+		D75050E624E24AF0001BDD60 /* shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D75050E424E24AF0001BDD60 /* shader.vsh */; };
+		D75050E724E24AF0001BDD60 /* shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D75050E524E24AF0001BDD60 /* shader.fsh */; };
 		D7ABC18224D267AD00F0F774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ABC18124D267AD00F0F774 /* AppDelegate.m */; };
 		D7ABC18524D267AD00F0F774 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ABC18424D267AD00F0F774 /* SceneDelegate.m */; };
 		D7ABC18824D267AD00F0F774 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ABC18724D267AD00F0F774 /* ViewController.m */; };
@@ -17,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D75050E124E24AA8001BDD60 /* KKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKView.h; sourceTree = "<group>"; };
+		D75050E224E24AA8001BDD60 /* KKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKView.m; sourceTree = "<group>"; };
+		D75050E424E24AF0001BDD60 /* shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.vsh; sourceTree = "<group>"; };
+		D75050E524E24AF0001BDD60 /* shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.fsh; sourceTree = "<group>"; };
 		D7ABC17D24D267AD00F0F774 /* GLSLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLSLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7ABC18024D267AD00F0F774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7ABC18124D267AD00F0F774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,12 +68,16 @@
 		D7ABC17F24D267AD00F0F774 /* GLSLDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D75050E124E24AA8001BDD60 /* KKView.h */,
+				D75050E224E24AA8001BDD60 /* KKView.m */,
 				D7ABC18024D267AD00F0F774 /* AppDelegate.h */,
 				D7ABC18124D267AD00F0F774 /* AppDelegate.m */,
 				D7ABC18324D267AD00F0F774 /* SceneDelegate.h */,
 				D7ABC18424D267AD00F0F774 /* SceneDelegate.m */,
 				D7ABC18624D267AD00F0F774 /* ViewController.h */,
 				D7ABC18724D267AD00F0F774 /* ViewController.m */,
+				D75050E524E24AF0001BDD60 /* shader.fsh */,
+				D75050E424E24AF0001BDD60 /* shader.vsh */,
 				D7ABC18924D267AD00F0F774 /* Main.storyboard */,
 				D7ABC18C24D267AE00F0F774 /* Assets.xcassets */,
 				D7ABC18E24D267AE00F0F774 /* LaunchScreen.storyboard */,
@@ -133,7 +144,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75050E624E24AF0001BDD60 /* shader.vsh in Resources */,
 				D7ABC19024D267AE00F0F774 /* LaunchScreen.storyboard in Resources */,
+				D75050E724E24AF0001BDD60 /* shader.fsh in Resources */,
 				D7ABC18D24D267AE00F0F774 /* Assets.xcassets in Resources */,
 				D7ABC18B24D267AD00F0F774 /* Main.storyboard in Resources */,
 			);
@@ -150,6 +163,7 @@
 				D7ABC18224D267AD00F0F774 /* AppDelegate.m in Sources */,
 				D7ABC19324D267AE00F0F774 /* main.m in Sources */,
 				D7ABC18524D267AD00F0F774 /* SceneDelegate.m in Sources */,
+				D75050E324E24AA8001BDD60 /* KKView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

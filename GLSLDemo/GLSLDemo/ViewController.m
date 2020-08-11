@@ -7,16 +7,17 @@
 //
 
 #import "ViewController.h"
-
+#import "KKView.h"
+#import <GLKit/GLKit.h>
 @interface ViewController ()
-
+@property(nonnull,strong)KKView *myView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.myView = (KKView *)self.view;
 }
 
 
